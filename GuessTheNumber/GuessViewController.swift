@@ -15,7 +15,7 @@ class GuessViewController: UIViewController {
     
     
     var rastgeleSayi : Int?
-    var kalanHak = 5
+    var kalanHak = 6
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,38 +46,33 @@ class GuessViewController: UIViewController {
         if let veri = textfieldTahmin.text {
             if let tahmin = Int(veri) {
                 
-                if kalanHak != 0 {
-                    
                     if tahmin == rastgeleSayi! {
                         // Doğru bildi
                         // sayfa geçişi yap
                         
                         let sonuc = true
                         performSegue(withIdentifier: "GuessToResult", sender: sonuc)
+                        return
                         
                     }
                     
                     if tahmin > rastgeleSayi! {
                         labelYardim.text = "Azalt"
-                        labelKalan.text = "Kalan hak: \(kalanHak)"
+                        labelKalan.text = "Kalan Hak: \(kalanHak)"
                     }
                     
                     if tahmin < rastgeleSayi! {
                         labelYardim.text = "Arttır"
-                        labelKalan.text = "Kalan hak: \(kalanHak)"
+                        labelKalan.text = "Kalan Hak: \(kalanHak)"
                     }
                     
-                } else {
-                    // hak bitti
-                    // sayfa geçişi yap
+                    if (kalanHak == 0) {
+                        let sonuc = false
+                        performSegue(withIdentifier: "GuessToResult", sender: sonuc)
+                    }
                     
-                    let sonuc = false
-                    performSegue(withIdentifier: "GuessToResult", sender: sonuc)
-                    
-                    
-                }
-                textfieldTahmin.text = ""
+                    textfieldTahmin.text = ""
             }
-        } 
+        }
     }
 }

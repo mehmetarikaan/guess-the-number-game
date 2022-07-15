@@ -75,20 +75,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kalan Hak: 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJE-So-Bum">
-                                <rect key="frame" x="144.33333333333337" y="139" width="139.66666666666663" height="31.333333333333343"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kalan Hak: 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJE-So-Bum">
+                                <rect key="frame" x="143.66666666666666" y="139" width="140.99999999999997" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <color key="highlightedColor" systemColor="systemRedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTTIR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vo-7e-Nml">
-                                <rect key="frame" x="153.33333333333334" y="265" width="121.33333333333334" height="44.333333333333314"/>
+                                <rect key="frame" x="153.33333333333334" y="265.66666666666669" width="121.33333333333334" height="44.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Tahmin giriniz.." textAlignment="center" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="M9A-Xl-2f7">
-                                <rect key="frame" x="85" y="368" width="259" height="34"/>
+                                <rect key="frame" x="85" y="368.66666666666669" width="259" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="6Sp-LU-SL2"/>
                                     <constraint firstAttribute="width" constant="259" id="nzs-M7-KDF"/>
@@ -97,7 +97,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6S-oc-SKV">
-                                <rect key="frame" x="139.33333333333337" y="477" width="149.66666666666663" height="44"/>
+                                <rect key="frame" x="139.33333333333337" y="477.66666666666669" width="149.66666666666663" height="44.000000000000057"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="TAHMİN ET">
